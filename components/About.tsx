@@ -10,7 +10,7 @@ export default function About() {
             <Reveal>
               <p className="eyebrow">01 — About</p>
               <h2 className="h-section mt-3">
-                Building the <span className="text-gradient">quiet</span> parts that make Salesforce sing.
+                Non-technical background. <span className="text-gradient">Three years</span> of shipping. Still learning fast.
               </h2>
             </Reveal>
           </div>
