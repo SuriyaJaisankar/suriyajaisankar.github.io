@@ -6,7 +6,7 @@ export default function Skills() {
     <section id="skills" className="section">
       <div className="container-page">
         <Reveal>
-          <p className="eyebrow">04 — Skills</p>
+          <p className="eyebrow">05 — Skills</p>
           <h2 className="h-section mt-3">Toolbox.</h2>
         </Reveal>
 

@@ -194,12 +194,47 @@ export const certifications = [
   { name: 'Platform Administrator', issuer: 'Salesforce' },
 ];
 
+export const cast = [
+  {
+    name: 'Sur / Dev',
+    role: 'Salesforce Developer',
+    power: 'Writes bulk-safe Apex before your governor limit knows what hit it.',
+    tools: ['Apex', 'LWC', 'SOQL'],
+    hue: 'violet' as const,
+    glyph: '{ }',
+  },
+  {
+    name: 'Sur / Whisperer',
+    role: 'Agentforce Wrangler',
+    power: 'Grounds agents in Data Cloud and keeps their topics on-topic.',
+    tools: ['Agent Builder', 'Prompt Builder', 'Data Cloud'],
+    hue: 'cyan' as const,
+    glyph: '◇◈',
+  },
+  {
+    name: 'Sur / Bridge',
+    role: 'Integrator',
+    power: 'Wires REST endpoints into flows without leaking timeouts.',
+    tools: ['REST', 'Named Credentials', 'Platform Events'],
+    hue: 'pink' as const,
+    glyph: '⇋',
+  },
+  {
+    name: 'Sur / Guide',
+    role: 'Success Guide',
+    power: 'Turns roadmaps into things customers actually ship.',
+    tools: ['Service Cloud', 'Experience Cloud', 'SLA design'],
+    hue: 'gold' as const,
+    glyph: '✦',
+  },
+];
+
 export const nav = [
   { href: '#about', label: 'About' },
+  { href: '#cast', label: 'Cast' },
   { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
   { href: '#certifications', label: 'Certs' },
-  { href: '#blog', label: 'Blog' },
   { href: '#contact', label: 'Contact' },
 ];

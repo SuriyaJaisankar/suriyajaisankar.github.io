@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projects" className="section">
       <div className="container-page">
         <Reveal>
-          <p className="eyebrow">03 — Projects</p>
+          <p className="eyebrow">04 — Projects</p>
           <h2 className="h-section mt-3">Selected engagements.</h2>
         </Reveal>
 

@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       <div className="container-page">
-        <div className="grid gap-10 md:grid-cols-[1.4fr_1fr] items-center">
+        <div className="grid gap-12 md:grid-cols-[1.35fr_1fr] items-center">
           <div>
             <Reveal>
               <p className="eyebrow">
@@ -31,16 +31,13 @@ export default function Hero() {
             </Reveal>
 
             <Reveal delay={160}>
-              <p className="mt-6 max-w-xl text-lg text-ink/70">
-                {profile.tagline}
-              </p>
+              <p className="mt-6 max-w-xl text-lg text-ink/70">{profile.tagline}</p>
             </Reveal>
 
             <Reveal delay={220}>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="#projects" className="btn-primary">
-                  See my work
-                  <span aria-hidden>→</span>
+                  See my work <span aria-hidden>→</span>
                 </a>
                 <a href={`mailto:${profile.email}`} className="btn-ghost">
                   {profile.email}
@@ -59,19 +56,41 @@ export default function Hero() {
             </Reveal>
           </div>
 
-          {/* Astro character */}
+          {/* Portrait — layered glass frame */}
           <Reveal delay={300} className="relative hidden md:block">
-            <div className="relative aspect-square max-w-md ml-auto">
-              <div aria-hidden className="absolute inset-6 rounded-full bg-neon-cyan/25 blur-3xl" />
-              <div aria-hidden className="absolute inset-0 rounded-full bg-gradient-to-br from-neon-violet/40 via-transparent to-neon-cyan/30 blur-2xl" />
-              <Image
-                src="/astro.png"
-                alt="Astro, the Salesforce mascot"
-                width={900}
-                height={900}
-                priority
-                className="relative animate-float drop-shadow-[0_20px_60px_rgba(139,92,246,0.35)]"
-              />
+            <div className="relative aspect-[4/5] max-w-sm ml-auto">
+              {/* outer gradient glow */}
+              <div aria-hidden className="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-neon-violet/50 via-neon-cyan/40 to-neon-pink/40 blur-3xl opacity-70 animate-blob" />
+
+              {/* offset accent card behind */}
+              <div aria-hidden className="absolute inset-4 rotate-[6deg] rounded-[1.5rem] glass" />
+
+              {/* main portrait frame */}
+              <div className="relative h-full w-full rounded-[1.5rem] overflow-hidden ring-1 ring-white/15 shadow-glass">
+                {/* subtle color tint on photo */}
+                <div aria-hidden className="absolute inset-0 z-10 mix-blend-color bg-gradient-to-br from-neon-violet/20 via-transparent to-neon-cyan/25" />
+                <Image
+                  src="/suriya.jpg"
+                  alt="Suriya Jaisankar"
+                  width={900}
+                  height={1125}
+                  priority
+                  className="relative h-full w-full object-cover"
+                />
+                {/* frosted metadata strip */}
+                <div className="absolute inset-x-0 bottom-0 z-20 px-4 py-3 backdrop-blur-xl bg-white/[0.05] border-t border-white/10">
+                  <div className="flex items-baseline justify-between font-mono text-[10px] uppercase tracking-[0.25em] text-ink/80">
+                    <span>ID / 001</span>
+                    <span className="text-neon-cyan">SALESFORCE · IN</span>
+                  </div>
+                  <p className="mt-1 font-display text-lg text-white">Suriya Jaisankar</p>
+                </div>
+              </div>
+
+              {/* corner chip */}
+              <div className="absolute -top-3 -right-3 z-30 glass px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-neon-cyan">
+                v.2026
+              </div>
             </div>
           </Reveal>
         </div>

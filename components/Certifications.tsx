@@ -8,7 +8,7 @@ export default function Certifications() {
         <Reveal>
           <div className="flex items-baseline justify-between flex-wrap gap-2">
             <div>
-              <p className="eyebrow">05 — Certifications</p>
+              <p className="eyebrow">06 — Certifications</p>
               <h2 className="h-section mt-3">Ten badges, one stack.</h2>
             </div>
             <span className="font-mono text-xs text-ink/50">

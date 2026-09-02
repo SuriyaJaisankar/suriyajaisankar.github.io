@@ -13,7 +13,7 @@ export default function Contact() {
     <section id="contact" className="section">
       <div className="container-page">
         <Reveal>
-          <p className="eyebrow">07 — Contact</p>
+          <p className="eyebrow">08 — Contact</p>
           <h2 className="h-section mt-3">
             Let&apos;s build <span className="text-gradient">something</span>.
           </h2>

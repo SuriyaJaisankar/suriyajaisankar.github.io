@@ -5,7 +5,7 @@ export default function Blog() {
     <section id="blog" className="section">
       <div className="container-page">
         <Reveal>
-          <p className="eyebrow">06 — Writing</p>
+          <p className="eyebrow">07 — Writing</p>
           <h2 className="h-section mt-3">Notes & posts.</h2>
         </Reveal>
 
