@@ -79,10 +79,11 @@ export const experience = [
     end: 'Present',
     location: 'Perungudi, Chennai',
     bullets: [
-      'Rebuilt PriAlto\'s client offboarding as a real-time cascade — the moment a product is cancelled, the member and then the account move to Former. It replaced a daily scheduled flow that was wiping its own audit trail.',
-      'Scoped the one-time cleanup of historical records to exactly the members and accounts with no active product left. The obvious rule would have swept in 1,698 contacts, active paying clients included.',
-      'Wrote the Fonteva FP16 upgrade impact analysis for Essential Hospital — every Visualforce and Aura dependency mapped, the upgraded sandbox verified, and two gaps caught in the vendor\'s own assessment.',
-      'Built a two-way refund approval integration as a proof of concept: an Apex REST service lets an external system list and approve pending requests, and a Queueable callout notifies it the moment one is submitted, secured with an OAuth External Client App.',
+      'Back at TechnoRUCS in a senior role, designing and delivering Salesforce solutions across multiple client implementations.',
+      'Modernizing business automation — replacing scheduled batch processes with real-time, record-triggered Flows that act the moment data changes.',
+      'Planning production data backfills scoped tightly enough that active customer records are never touched.',
+      'Assessing managed package upgrades: Visualforce and Aura dependencies, cutover risks, and the path to LWC.',
+      'Building integrations with external systems using Apex REST services, Queueable callouts, and OAuth.',
     ],
   },
   {
