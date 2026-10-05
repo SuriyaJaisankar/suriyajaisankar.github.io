@@ -79,9 +79,10 @@ export const experience = [
     end: 'Present',
     location: 'Perungudi, Chennai',
     bullets: [
-      'Rejoined TechnoRUCS after my time at Salesforce, this time in a senior role — owning Salesforce design and delivery end to end.',
-      'Bringing the Success Guide view back into delivery: roadmap thinking, adoption risk, and Agentforce grounding decisions made at design time instead of patched after go-live.',
-      'Building Agentforce agents, topics, and Apex invocable actions, and helping the team ship Apex and LWC that stay bulk-safe.',
+      'Rebuilt PriAlto\'s client offboarding as a real-time cascade — the moment a product is cancelled, the member and then the account move to Former. It replaced a daily scheduled flow that was wiping its own audit trail.',
+      'Scoped the one-time cleanup of historical records to exactly the members and accounts with no active product left. The obvious rule would have swept in 1,698 contacts, active paying clients included.',
+      'Wrote the Fonteva FP16 upgrade impact analysis for Essential Hospital — every Visualforce and Aura dependency mapped, the upgraded sandbox verified, and two gaps caught in the vendor\'s own assessment.',
+      'Built a two-way refund approval integration as a proof of concept: an Apex REST service lets an external system list and approve pending requests, and a Queueable callout notifies it the moment one is submitted, secured with an OAuth External Client App.',
     ],
   },
   {
