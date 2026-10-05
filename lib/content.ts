@@ -1,11 +1,11 @@
 export const profile = {
   name: 'Suriya Jaisankar',
-  role: 'Salesforce Developer',
+  role: 'Senior Salesforce Developer',
   location: 'Chennai, Tamil Nadu',
   tagline:
-    'English Literature to shipping Apex in six months. Three years, four implementations, three delivery awards, and a growing love for the Salesforce platform.',
+    'English Literature to shipping Apex in six months. Three-plus years, four implementations, three delivery awards, and now back at TechnoRUCS as a Senior Salesforce Developer.',
   summary:
-    "I didn't start in tech — my degree is in English Literature. Six months of full-stack training later, I was hired as a Salesforce Developer, and I've been building on the platform ever since. Three years, four client implementations, ten certifications, and three back-to-back delivery awards from my first team. What I bring: Apex and LWC that scale, Flows that don't fight the platform, and a growing focus on Agentforce — because I like being early on the parts of Salesforce that are still being figured out.",
+    "I didn't start in tech — my degree is in English Literature. Six months of full-stack training later, I was hired as a Salesforce Developer at TechnoRUCS: three years, four client implementations, ten certifications, and three back-to-back delivery awards. In 2026 I joined Salesforce as a Success Guide, advising Service Cloud and Experience Cloud customers on roadmaps and Agentforce adoption, then returned to TechnoRUCS as a Senior Salesforce Developer. What I bring: Apex and LWC that scale, Flows that don't fight the platform, and a growing focus on Agentforce — because I like being early on the parts of Salesforce that are still being figured out.",
   email: 'suriyajaisankar41@gmail.com',
   phone: '+91 82484 84374',
   socials: {
@@ -16,7 +16,7 @@ export const profile = {
 };
 
 export const stats = [
-  { value: '3', label: 'years shipping Salesforce' },
+  { value: '3+', label: 'years shipping Salesforce' },
   { value: '10', label: 'Salesforce certifications' },
   { value: '3×', label: 'delivery awards' },
   { value: '4', label: 'client implementations' },
@@ -73,17 +73,29 @@ export const skillGroups = [
 
 export const experience = [
   {
+    role: 'Senior Salesforce Developer',
+    company: 'TechnoRUCS',
+    start: 'Sep 2026',
+    end: 'Present',
+    location: 'Perungudi, Chennai',
+    bullets: [
+      'Rejoined TechnoRUCS after my time at Salesforce, this time in a senior role — owning Salesforce design and delivery end to end.',
+      'Bringing the Success Guide view back into delivery: roadmap thinking, adoption risk, and Agentforce grounding decisions made at design time instead of patched after go-live.',
+      'Building Agentforce agents, topics, and Apex invocable actions, and helping the team ship Apex and LWC that stay bulk-safe.',
+    ],
+  },
+  {
     role: 'Success Guide',
     company: 'Salesforce',
     start: 'Apr 2026',
-    end: 'Present',
+    end: 'Sep 2026',
     location: 'Remote',
     bullets: [
-      'Named advisor across three product lines — Service Cloud, Experience Cloud, and Agentforce — so a single customer gets one point of contact instead of three.',
+      'Served as named advisor across three product lines — Service Cloud, Experience Cloud, and Agentforce — so a single customer got one point of contact instead of three.',
       'On Service Cloud: case management, omni-channel routing, SLA and entitlement design, queue configuration — the plumbing that makes support scale.',
-      'On Agentforce for Service Cloud: help teams scope their first agent, design topics and actions, and ground it in Knowledge and Data Cloud so deflection is safe, not aspirational.',
+      'On Agentforce for Service Cloud: helped teams scope their first agent, design topics and actions, and ground it in Knowledge and Data Cloud so deflection is safe, not aspirational.',
       'On Experience Cloud: template selection, member profiles, and audience targeting — the parts that decide whether a portal actually gets used.',
-      'Reframe knowledge base strategy as agent-grounding strategy, so a single content investment powers both self-service search and Agentforce answers.',
+      'Reframed knowledge base strategy as agent-grounding strategy, so a single content investment powers both self-service search and Agentforce answers.',
     ],
   },
   {
@@ -197,7 +209,7 @@ export const certifications = [
 export const cast = [
   {
     name: 'Sur / Dev',
-    role: 'Salesforce Developer',
+    role: 'Senior Salesforce Developer',
     power: 'Writes bulk-safe Apex before your governor limits get grumpy.',
     tools: ['Apex', 'LWC', 'SOQL'],
     hue: 'violet' as const,

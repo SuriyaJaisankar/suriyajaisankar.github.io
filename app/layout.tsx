@@ -10,16 +10,17 @@ const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono', displ
 
 const siteUrl = 'https://suriyajaisankar.github.io';
 const description =
-  'Suriya Jaisankar — Salesforce Developer specializing in Apex, Lightning Web Components, Flows, Integrations, and Agentforce.';
+  'Suriya Jaisankar — Senior Salesforce Developer specializing in Apex, Lightning Web Components, Flows, Integrations, and Agentforce.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Suriya Jaisankar — Salesforce Developer',
+    default: 'Suriya Jaisankar — Senior Salesforce Developer',
     template: '%s · Suriya Jaisankar',
   },
   description,
   keywords: [
+    'Senior Salesforce Developer',
     'Salesforce Developer',
     'Agentforce',
     'Apex',
@@ -33,13 +34,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: siteUrl,
-    title: 'Suriya Jaisankar — Salesforce Developer',
+    title: 'Suriya Jaisankar — Senior Salesforce Developer',
     description,
     siteName: 'Suriya Jaisankar',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Suriya Jaisankar — Salesforce Developer',
+    title: 'Suriya Jaisankar — Senior Salesforce Developer',
     description,
   },
   robots: { index: true, follow: true },
